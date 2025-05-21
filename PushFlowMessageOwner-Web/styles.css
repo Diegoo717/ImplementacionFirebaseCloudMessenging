@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 96vh;
+    background-image: url("https://wallpapers.com/images/hd/android-sticker-desktop-4wwb3p85ikku4mxx.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+}
+
+.form-index{
+    width: 400px;
+    min-height: 50vh;
+    padding: 15px;
+    background-color: rgb(32, 196, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.input-form-index{
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.button-form-index{
+    background-color: rgb(206, 58, 58);
+    padding: 5px;
+    border-radius: 15%;
+    color: white;
+    font-size: 15px;
+    font-family: "Lilita One", sans-serif;
+    transition: transform 0.3s ease;
+}
+
+.button-form-index:hover{
+    transform: scale(1.2);
+}
